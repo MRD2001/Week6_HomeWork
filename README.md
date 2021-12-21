@@ -12,6 +12,9 @@ In this homework assignment, you will help Harold accomplish the following tasks
 
 ## Rental Analysis
 
+> The interactive images rendered as output cells after calling hvplot function
+![image](images/rental_Cell25.png)
+
 ## Dashboard
 
 
