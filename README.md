@@ -62,7 +62,7 @@ In this section we will calculate the number of dwelling types per year. Visuali
 14.  Create a new DataFrame with the mean house values by neighbourhood per year. 
 15. Using hvplot, create an interactive line chart , in this chart the user can use the drop down feature to select what neighbourhood he’s interested in.
 
-![image](images/Rental_cell15.png)
+![image](images/Rental_Cell15.png)
 
 <Insert Image Cell15>
 
