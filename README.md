@@ -62,7 +62,7 @@ In this section we will calculate the number of dwelling types per year. Visuali
 14.  Create a new DataFrame with the mean house values by neighbourhood per year. 
 15. Using hvplot, create an interactive line chart , in this chart the user can use the drop down feature to select what neighbourhood he’s interested in.
 
-![image](images/rental_cell15.png)
+![image](images/Rental_cell15.png)
 
 <Insert Image Cell15>
 
@@ -81,7 +81,9 @@ In this section we will calculate the number of dwelling types per year. Visuali
 
 >top_10_expensive_neighbourhoods = to_data.groupby(['neighbourhood']).mean().reset_index().sort_values(by=['average_house_value'],ascending=False).head(10).reset_index(drop=True)
 
-19. Using hvplot create an interactive bar chart for the  top 10 most expensive neighbourhoods <Cell19 image>
+19. Using hvplot create an interactive bar chart for the  top 10 most expensive neighbourhoods 
+	
+![image](images/rental_Cell19.png)
 
 *Neighbourhood Map*
 
@@ -107,12 +109,10 @@ neighbourhood_df.head()
 
 >In this section, we will use Plotly express to a couple of plots that investors can interactively filter and explore various factors related to the house value of the Toronto's neighbourhoods.
 
-![image](images/rental_cell25.png)
+![image](images/rental_Cell25.png)
 
-![image](images/rental_cell28.png)
+![image](images/rental_cell32.png)
   
-Cell25.image
-Cell28.image
 
 ### Dashboard
 
@@ -121,7 +121,7 @@ Cell28.image
 
 > The interactive images rendered as output cells after calling hvplot function. Here is the resulted dashboard, that can be shown when running the notebook.
   
-![image](images/dashboard_Cell9.png)
+![image](images/dashboard_cell9.png)
 
 ![image](images/dashboard_Cell9_1.png)
  
@@ -129,7 +129,11 @@ Cell28.image
   
 ![image](images/dashboard_Cell14.png)
   
-![image](images/dashboard_Cell15.png)
+![image](images/dashboard_cell15.png)
+	
+![image](images/dashboard_Cell16.png)
+
+![image](images/dashboard_Cell18.png)
 
 ![image](images/dashboard_Cell20.png)
 
